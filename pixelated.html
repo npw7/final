@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixelated</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    a:link, a:visited {
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    a:hover{
+      color: #cdcdcd;
+    }
+    a:active {
+      color: #999999;
+    }
+    nav {
+      background: #444;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0.5rem;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      background: #555;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+    nav ul li a:hover {
+      background: #666;
+    }
+    main {
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html"><h1>My Portfolio</h1></a>
+    <p>Pixelated</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="pixelated.html">Pixelated</a></li>
+      <li><a href="bad-photoshop.html">Bad Photoshop</a></li>
+      <li><a href="perfect-mask.html">Perfect Mask</a></li>
+      <li><a href="animated-gifs.html">Animated Gifs</a></li>
+      <li><a href="glitch-n-grit.html">Glitch N Grit</a></li>
+      <li><a href="p5-js.html">p5.js</a></li>
+      <li><a href="what-if.html">What If</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="Title">
+      <h2>Pixelated</h2>
+      <p>This project aims to showcase the beauty in 
+        pixel art and "bad quality" art.</p>
+    </section>
+
+    <section id="Technical">
+      <h2>Technical Notes</h2>
+      <p>Photoshop, Resize Tools.</p>
+    </section>
+    
+     <section id="Documentation">
+      <h2>Project Documentation</h2>
+      <p>
+&gt; Figured out some fun compositions for the images
+<br>
+&gt; Resized and cropped images to specifications
+<br>
+&gt; Adjusted the colors of pixels
+</p>
+    </section>
+    
+     <section id="Reflection">
+      <h2>Reflection</h2>
+      <p>For this project, I decided my theme would be "crabs".
+       I searched for many different kind of crab photos that had 
+       intersting compositions and colors. The extracted photos
+       specifically, I had to search for compositions that were
+       interesing when cropped to just a few pixels.
+       </p>
+    </section>
+  <br>
+    <section id="Artifact">
+      <div class="gallery">
+
+<div class="gallery-item">
+  <a target="_blank" href="extracted16.jpg">
+    <img src="extracted16.jpg" alt="Extracted16" width="600" height="400">
+  </a>
+  <div class="desc">Extracted [16px]</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="extracted32.jpg">
+    <img src="extracted32.jpg" alt="Extracted32" width="600" height="400">
+  </a>
+  <div class="desc">Extracted [32px]</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="extracted64.jpg">
+    <img src="extracted64.jpg" alt="Extracted64" width="600" height="400">
+  </a>
+  <div class="desc">Extracted [64px]</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="extracted128.jpg">
+    <img src="extracted128.jpg" alt="Extracted128" width="600" height="400">
+  </a>
+  <div class="desc">Extracted [128px]</div>
+</div>
+<div class="gallery-item">
+  <a target="_blank" href="resized16.jpg">
+    <img src="resized16.jpg" alt="Resized16" width="600" height="400">
+  </a>
+  <div class="desc">Resized [16px]</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="resized32.jpg">
+    <img src="resized32.jpg" alt="Resized32" width="600" height="400">
+  </a>
+  <div class="desc">Resized [32px]</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="resized64.jpg">
+    <img src="resized64.jpg" alt="Resized64" width="600" height="400">
+  </a>
+  <div class="desc">Resized [64px]</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="resized128.jpg">
+    <img src="resized128.jpg" alt="Resized128" width="600" height="400">
+  </a>
+  <div class="desc">Resized [128px]</div>
+</div>
+
+</div>
+    </section>
+
+    <!-- Repeat sections for projects 3–10 -->
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+</body>
+</html>
